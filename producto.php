@@ -4,29 +4,14 @@ require ('headers/admin.php');
 
 ?>
 
-<div class="row card-panel">
-    <div class="container">
-        <div class="col s2">
-            <img src="https://image.freepik.com/vector-gratis/carrito-supermercado-compras-pictograma-comestibles_1284-11697.jpg" alt="" class="responsive-img z-depth-3">
-        </div> 
-        <div class="col s10 center-align">
-            <h3>Supermercado Don Jacinto</h3>
-            <p>Venta de frutas, verduras y carnes listas para el consumo</p>
-            <p>Dirección calle 183 # 9 - 50</p>
-            <p>Horario de atención todos los días 24 horas</p>
-            <p>Domicilios 3155245707</p>
-        </div>
-        <!-- <div class="s3">
-            <a href="" class="btn">Editar</a>
-        </div> -->
-    </div>    
-</div>
+<!-- Cabecera mis negocios -->
+<?php require ('cabecera-admin/cabecera-mis-negocios.php');?>  
 
 
 <div class="container">
     <div class="row">
-        <div class="col s4">
-            <div class="">
+        <div class="col s4 m4 l4 xl4">
+            <div class="hide-on-small-only">
                 <div class="collection z-depth-1">
                     <a href="#!" class="collection-item orange-text">Principal</a>
                     <a href="#!" class="collection-item orange-text">Editar negocio</a>
@@ -40,7 +25,7 @@ require ('headers/admin.php');
             </div>
         </div>   
 
-        <div class="col s8 m8  l8 xl8">
+        <div class="col s12 m8 l8 xl8">
             <div class="row card-panel">
                 <div class="row">
                     <div class="col s9">
@@ -51,7 +36,7 @@ require ('headers/admin.php');
                     <!--Card producto-->
                     <p></p>
                     <div class=""> 
-                        <div class="col s6">                
+                        <div class="col s12 m6 l6 xl6">                
                             <div class="card-panel center-align">
                                 <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                                 <h4>7400</h4>
@@ -63,7 +48,7 @@ require ('headers/admin.php');
 
                     <!-- Formulario para editar -->
                     <div class="row">
-                        <form class="col s6">
+                        <form class="col s12 m6 l6 xl6">
                             <div class="row">
                                 <div class="file-field input-field">
                                     <div class="btn">

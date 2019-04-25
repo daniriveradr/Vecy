@@ -1,22 +1,23 @@
 <?php require ('headers/header.php');?>
 <div class="container">
       <div class="row">
-        <div class="col s12">
+        <div class="col s12 m12 12 xl12">
           <div class="card-panel center-align">
           <a class="" href="#"><i class="material-icons left orange-text">arrow_back</i></a>
             <div class="center-align">
-                <h1>Supermercados y lichigos</h1>
+                <h1 class="hide-on-small-only">Supermercados y lichigos</h1>
+                <h4 class="hide-on-med-and-up">Supermercados y lichigos</h4>
                 <h6>Venta de frutas, verduras y carnes listas para el consumo</h6>
                 <p>Aquí encuentras desde arroz al granel hasta carnicerias</p>
             </div>    
           </div>
         </div>
-        <div class="col s12">          
+        <div class="col s12 m12 l12 xl12">          
           <div class="card-panel center-align">
           <div class="">
             <div class="row">
                 <!-- Carta de cada tienda -->
-                <div class="col s3">                         
+                <div class="col s12 m6 l3 xl3">                         
                     <div class="card-panel center-align">
                         <a href="#hyper-mark" class="modal-trigger">
                             <img class="responsive-img "src="https://image.freepik.com/vector-gratis/mercado-saludable_23-2147513302.jpg" alt="">
@@ -51,7 +52,7 @@
                 <!-- Modal Structure -->
                 
                 <!-- Carta de cada tienda -->
-                <div class="col s3">                
+                <div class="col s12 m6 l3 xl3">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/bolsa-papel-comida_23-2147513303.jpg" alt="">
                         <p class="nombres-comercios">Abastos para la familia</p><!-- Nombre del negocio -->
@@ -61,7 +62,7 @@
                 </div>
 
                 <!-- Carta de cada tienda -->
-                <div class="col s3">                
+                <div class="col s12 m6 l3 xl3">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <p class="nombres-comercios">Algo merkar</p><!-- Nombre del negocio -->
@@ -72,7 +73,7 @@
 
 
                 <!-- Carta de cada tienda -->
-                <div class="col s3">                         
+                <div class="col s12 m6 l3 xl3">                         
                     <div class="card-panel center-align">
                         <a href="#don-jacinto" class="modal-trigger">
                             <img class="responsive-img "src="https://image.freepik.com/vector-gratis/carrito-supermercado-compras-pictograma-comestibles_1284-11697.jpg" alt="">

@@ -3,90 +3,93 @@
 ?>     
 
 
-      <div class="container">
-        <div class="row">
+<div class="container hide-on-med-and-down">
+    <div class="row">
         <br>
-        <a href="#" data-activates="slide-out" class="btn-large orange waves-effect waves-light button-collapse"><h5>Negocios<i class="material-icons">arrow_drop_down</i></h5> </a>
-        </div>        
+        <a href="#" data-activates="slide-out" class="btn-large orange waves-effect waves-light button-collapse">
+            <h5>Negocios<i class="material-icons">arrow_drop_down</i></h5>
+        </a>
+    </div>        
+</div>
+
+
+<!-- <div class="container">
+  <div class="row card-panel">
+  <div class="carousel carousel-slider">
+      <a class="carousel-item" href="#one!">
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://img.freepik.com/psd-gratis/maqueta-tarjeta-visita_1435-1215.jpg?size=338&ext=jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+        </div>
+      </a>
+      <a class="carousel-item" href="#two!">
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/psd-gratis/maqueta-taza-cafe_23-2148091252.jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/cafe-tazas_52683-5731.jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+        </div>
+        <div class="col s3">
+          <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+        </div>
+      </a>           
+    </div>
+  </div>
+</div> -->
+
+<!-- Diseño de los sliders
+<div class="container">
+  <div class="row card-panel">
+    <div class="">
+      <div class="col s3">
+        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
       </div>
-
-      <!-- <div class="container">
-        <div class="row card-panel">
-        <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!">
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://img.freepik.com/psd-gratis/maqueta-tarjeta-visita_1435-1215.jpg?size=338&ext=jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-              </div>
-            </a>
-            <a class="carousel-item" href="#two!">
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/psd-gratis/maqueta-taza-cafe_23-2148091252.jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/cafe-tazas_52683-5731.jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-              </div>
-              <div class="col s3">
-                <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-              </div>
-            </a>           
-          </div>
-        </div>
-      </div> -->
-
-      <!-- Diseño de los sliders
-      <div class="container">
-        <div class="row card-panel">
-          <div class="">
-            <div class="col s3">
-              <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-            </div>
-            <div class="col s3">
-              <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-            </div>
-            <div class="col s3">
-              <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-            </div>
-            <div class="col s3">
-              <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div> -->
+      <div class="col s3">
+        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+      </div>
+      <div class="col s3">
+        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+      </div>
+      <div class="col s3">
+        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</div> -->
 
 
-      <?php require ('abastos-pre.php');?>
+<?php require ('abastos-pre.php');?>
 
 
-      <ul id="slide-out" class="side-nav">
-        <li>
-          <div class="user-view">
-            <a href="index.php"><img class="responsive-img btn black" src="img/logo.png"></a>
-          </div>
-        </li>
-        <hr>
-        <li><p class="center-align">Categorias</p></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='abastos'>Abastos y viveres<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='panaderias'>Panaderias y pastelerias<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='restaurantes'>Restaurantes<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='salud'>Salud y bienestar<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='tecnologia'>Tecnología<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><a class='dropdown-button btn orange' href='#' data-activates='ropa'>Ropa y accesorios<i class="material-icons">arrow_drop_down</i></a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="subheader">Subheader</a></li>
-        <li><a class="waves-effect btn orange" href="#!">Contacto</a></li>
-      </ul>
+<ul id="slide-out" class="side-nav">
+    <li>
+      <div class="user-view">
+        <a href="index.php"><img class="responsive-img btn black" src="img/logo.png"></a>
+      </div>
+    </li>
+    <hr>
+    <li><p class="center-align">Categorias</p></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='abastos'>Abastos y viveres<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='panaderias'>Panaderias y pastelerias<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='restaurantes'>Restaurantes<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='salud'>Salud y bienestar<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='tecnologia'>Tecnología<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><a class='dropdown-button btn orange' href='#' data-activates='ropa'>Ropa y accesorios<i class="material-icons">arrow_drop_down</i></a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect btn orange" href="#!">Contacto</a></li>
+</ul>
   <!-- Dropdown Trigger -->
   
 

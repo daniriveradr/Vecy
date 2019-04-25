@@ -12,55 +12,58 @@
 </div> -->
 
 <div class="container">
-      <div class="row">
-        <div class="col s4">
+    <div class="row">
+        <div class="col s12 m4 l4 xl4">
             <div class="">
-            <div class="card-panel center-align">
-            <div class="center-align">
-                <h5>Super Mercado Don Jacinto</h5>
-                <h6>Venta de frutas, verduras y carnes listas para el consumo</h6>
-                <p>Dirección calle 183 # 9 -  50</p>
-                <p>Horario de atención todos los días 24 horas</p>
-                <p>Domicilios 3155245707</p>
-            </div>    
-          </div>
-          <div class="card-panel center-align">
-              <!-- Lista de los pasillos (categorias) -->
-            <ul>
-                <li>
-                    <div class="card-panel">
-                        <a href="" class="btn">Carnes </a>
+                <div class="card-panel center-align hide-on-small-only">
+                    <div class="center-align">
+                        <h5>Super Mercado Don Jacinto</h5>
+                        <h6>Venta de frutas, verduras y carnes listas para el consumo</h6>
+                        <p>Dirección calle 183 # 9 -  50</p>
+                        <p>Horario de atención todos los días 24 horas</p>
+                        <p>Domicilios 3155245707</p>
+                    </div>    
+                </div>
+                <div class="hide-on-small-only">
+                    <div class="card-panel center-align">
+                    <!-- Lista de los pasillos (categorias) -->
+                        <ul>
+                            <li>
+                                <div class="card-panel">
+                                    <a href="" class="btn">Carnes </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-panel">
+                                    <a href="" class="btn">Carnes</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-panel">
+                                    <a href="" class="btn">Carnes</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-panel">
+                                    <a href="" class="btn">Carnes</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card-panel">
+                                    <a href="" class="btn">Carnes</a>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                </li>
-                <li>
-                    <div class="card-panel">
-                        <a href="" class="btn">Carnes</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="card-panel">
-                        <a href="" class="btn">Carnes</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="card-panel">
-                        <a href="" class="btn">Carnes</a>
-                    </div>
-                </li>
-                <li>
-                    <div class="card-panel">
-                        <a href="" class="btn">Carnes</a>
-                    </div>
-                </li>
-            </ul>
-          </div>
-            </div>
-          
+                </div>
+                
+            </div>          
         </div>
     
-        <div class="col s8">
+        <div class="col s12 m8 l8 xl8">
           <div class="card-panel center-align">
-            <h2>Carniceria</h2>
+            <h2 class="hide-on-med-and-down">Carniceria</h2>
+            <h5>Carniceria</h5>
             <p>Carne lista para el consumo, cortes de calidad. Aquí encuentras la mejor selección</p>
           </div>  
           
@@ -68,7 +71,7 @@
           <div class="">
             <div class="row">
                 <!-- Carta de cada producto -->
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
@@ -83,10 +86,10 @@
                 <div class="modal-content">
                     <div class="container">
                         <div class="row">
-                            <div class="col s6">
+                            <div class="col s12 m6 l6 xl6">
                                 <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                             </div>
-                            <div class="col s6">
+                            <div class="col s12 m6 l6 xl6">
                                 <h5>Carne de res x 500 gr</h5>
                                 <p>Carne lista para el consumo, cortes de calidad.</p>
                                 <h4>7500</h4>
@@ -100,7 +103,7 @@
                 </div>
                 </div>
                 
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
@@ -108,33 +111,7 @@
                         <a href="" class="btn">ver más</a>
                     </div>
                 </div>
-                <div class="col s4">                
-                    <div class="card-panel center-align">
-                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-                        <h4>7400</h4>
-                        <p>carne lista para asar</p>
-                        <a href="" class="btn">ver más</a>
-                    </div>
-                </div>
-
-                <div class="col s4">                
-                    <div class="card-panel center-align">
-                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-                        <h4>7400</h4>
-                        <p>carne lista para asar</p>
-                        <a href="" class="btn">ver más</a>
-                    </div>
-                </div>
-                
-                <div class="col s4">                
-                    <div class="card-panel center-align">
-                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
-                        <h4>7400</h4>
-                        <p>carne lista para asar</p>
-                        <a href="" class="btn">ver más</a>
-                    </div>
-                </div>
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
@@ -143,7 +120,7 @@
                     </div>
                 </div>
 
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
@@ -152,7 +129,7 @@
                     </div>
                 </div>
                 
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
@@ -160,7 +137,33 @@
                         <a href="" class="btn">ver más</a>
                     </div>
                 </div>
-                <div class="col s4">                
+                <div class="col s12 m6 l4 xl4">                
+                    <div class="card-panel center-align">
+                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+                        <h4>7400</h4>
+                        <p>carne lista para asar</p>
+                        <a href="" class="btn">ver más</a>
+                    </div>
+                </div>
+
+                <div class="col s12 m6 l4 xl4">                
+                    <div class="card-panel center-align">
+                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+                        <h4>7400</h4>
+                        <p>carne lista para asar</p>
+                        <a href="" class="btn">ver más</a>
+                    </div>
+                </div>
+                
+                <div class="col s12 m6 l4 xl4">                
+                    <div class="card-panel center-align">
+                        <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
+                        <h4>7400</h4>
+                        <p>carne lista para asar</p>
+                        <a href="" class="btn">ver más</a>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4 xl4">                
                     <div class="card-panel center-align">
                         <img class="responsive-img "src="https://image.freepik.com/vector-gratis/fondo-panaderia-estilo-plano_23-2147777200.jpg" alt="">
                         <h4>7400</h4>
