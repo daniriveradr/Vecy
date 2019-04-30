@@ -1,25 +1,44 @@
-<footer class="page-footer gris-oscuro-3">
+<footer class="page-footer orange">
           <div class="container">
             <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              <div class="col s12 m2 l2 xl2 center-align">
+                <a href="index" class="brand-logo"><img src="img/logo.png" alt="Logo vecy" class=" btn-large black"></a> 
+                <p class="grey-text text-lighten-4">"Slogan muy bonito"</p>
               </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+
+              <div class="col s12 m3 l3 xl3">
+                <h5 class="white-text">Legal</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Terminos</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Privacidad</a></li>
                 </ul>
+              </div>
+
+              <div class="col s12 m5 l5 xl5">
+                <h5 class="white-text">Conoce más</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Qué es Vecy?</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Cómo funciona?</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Quiero hacer que mi negocio aparezca acá!</a></li>
+                </ul>
+              </div> 
+
+              <div class="col s12 m2 l2 xl2 center-align">
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook fa-2x"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter fa-2x"></i></a></li>
+                </ul>               
+              </div>
+
+              <div class="col l4 offset-l2 s12">
+                
               </div>
             </div>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          <div class="footer-copyright orange">
+            <div class="container center-align">
+              2019 Vecy            
             </div>
           </div>
         </footer>
@@ -58,6 +77,10 @@
         $(document).ready(function(){
           $('.collapsible').collapsible();
         });
+        $(document).ready(function() {
+          $('select').material_select();
+        });
+              
     </script>
     </body>
   </html>

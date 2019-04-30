@@ -27,8 +27,8 @@ require ('headers/admin.php');
                     <div class="col s4 m4 l3 xl3">
                         <div class="">
                             <!-- modal -->
-                            <a href="#crear-categoria" class="btn orange modal-trigger hide-on-small-only"><i class="material-icons">add</i>negocio</a>
-                            <a href="#crear-categoria" class="btn orange modal-trigger hide-on-med-and-up"><i class="material-icons">add</i></a>
+                            <a href="#crear-categoria" class="btn orange modal-trigger hide-on-small-only"><i class="fas fa-plus"></i> negocio</a>
+                            <a href="#crear-categoria" class="btn orange modal-trigger hide-on-med-and-up"><i class="fas fa-plus"></i></a>
                         </div>
                     </div>
                 </div>  

@@ -2,7 +2,7 @@
 
     <!-- modal crear producto -->
     <div class="center-align hide-on-small-only">
-        <a href="#crear-producto" class="btn orange modal-trigger"><i class="material-icons">add</i> Crear nuevo producto</a>
+        <a href="#crear-producto" class="btn orange modal-trigger"><i class="fas fa-plus"></i>s Crear nuevo producto</a>
     </div>
 
     <!-- Modal Structure -->
