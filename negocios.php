@@ -1,125 +1,200 @@
-<?php require ('headers/header-negocio.php'); ?>
+<?php 
+
+session_start();
+
+$categorias = array('Abastos y viveres',
+                    'Panaderias y pastelerias',
+                    'Tecnología', 'Ropa y accesorios',
+                    'Salud y Bienestar', 'Entretenimiento y ocío',
+                    'Restaurante', 'Ferreterias', 'Automotriz',
+                    'Corte y confección', 'Academias', 
+                    'Postres y fruterias', 'Fotos estudios',
+                    'Casas comerciales (Compra y venta)', 'Papelerias',
+                    'variedades y regalos (Cacharrerias)', 'Lavanderias',
+                    'Cigarrerias', 'Utensilios desechableas', 'Remontadoras y zapaterias',
+                    'Deportes y tiempo libre', 'Belleza', 'Mascotas'
+            );
 
 
-<div class="container">
-    <div class="row">
-    <div class="col s12 m6 l7 xl7">
-            <div class="center-align">
-                <h2>Landing page para convencer</h2>
-                <p>Ver pagina de ubereats</p>
-            </div>
-        </div>
-        <div class="col s12 m6 l5 xl5">
-            <div class="card-panel center-align">
-                <div class="row">
-                <h4>Registra tu negocio en Vecy</h4>
-                    <form class="col s12">
-                        <div class="row">
-                            <h5>Información de tu negocio</h5>
-                            <div class="input-field col s12">
-                                <i class="far fa-building prefix"></i>
-                                <input id="name_business" type="text" class="validate">
-                                <label for="name_business">Nombre de tu negocio</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <i class="fas fa-map-marked prefix"></i>
-                                <textarea id="address" class="materialize-textarea"></textarea>
-                                <label for="address">Dirección</label>
-                            </div>                   
-                            
-                            <div class="input-field col s12">
-                                <p>Por favor selecciona la categoria de tu negocio</p>
-                                <div class="input-field col s12">
-                                    <select>
-                                    <option value="" disabled selected>Categoria</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                    </select>
-                                    <label>Selecciona la categoria</label>
-                                </div>
+$subcategorias = array('Carnicerias',
+                    'Supermercados',
+                    'A granel', 'Ropa y accesorios',
+                    'Salsamentarias', 'Celulares y accesorios',
+                    'Zapatos y tenis', 'Ropa deportiva', 'Ropa interior',
+                    'Ropa hombre y mujer', 'Dizfraces', 
+                    'Relojeria', 'Productos de belleza',
+                    'Drogueria', 'Odontología',
+                    'Centro optico', 'Tienda naturista',
+                    'Casino', 'Cerveceria', 'Bar',
+                    'Asadero', 'Restaurante',
+                    'Pizzeria', 'Comida rápida',
+                    'Ferreteria', 'Taller mecanico', 'Costurera',
+                    'Fruterias', 'Foto estudios', 'Compra venta',
+                    'Papeleria', 'Cacharreria', 'Lavanderia',
+                    'Cigarreria', 'Desechables', 'Remontadora',
+                    'Tienda deportiva', 'Panaderia', 'Peluqueria - Barberia',
+                    'Veterinaria'
+            );
 
-                                <div class="input-field col s12">
-                                    <select>
-                                    <option value="" disabled selected>SubCategoria</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                    </select>
-                                    <label>Subcategoria</label>
-                                </div>
-                            </div>
+$sucursales = array('1 sucursal',
+                    '2 sucursales',
+                    '3 a 5 sucursales', 
+                    '6 a 9 sucursales',
+                    '10 a 20 sucursales'
+            );       
+            
+$roles = array('Propietario',
+                'Gerente',
+                'Administrador', 
+                'Subgerente',
+                'Coordinador',
+                'Empleado',
+                'Encargado',
+                'Auxiliar',
+                'Aseador',
+                'Vigilante',
+                'Cocinero',
+                'Mesero',
+                'Asistente',
+                'Conductor',                        
+            );             
+            
 
-                            <div class="input-field col s12">
-                                <p>Numero de locales o sucursales</p>
-                                <div class="input-field col s12">
-                                    <select>
-                                    <option value="" disabled selected>Categoria</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                    </select>
-                                    <label>Selecciona la categoria</label>
-                                </div>
-                            </div>
+if (isset($_SESSION['negocio'])) {
+    header('Location: index.php');
+}
 
-                            <h5>Información de contacto</h5>
-                            
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $name_business = $_POST['name_business'];
 
-                            <div class="input-field col s6">
-                                <i class="far fa-id-badge prefix"></i>
-                                <input id="name" type="text" class="validate">
-                                <label for="name">Nombre</label>
-                            </div>
-                            <div class="input-field col s6">
-                                <i class="far fa-id-badge prefix"></i>
-                                <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Apellido</label>
-                            </div>
-                            <div class="input-field col s12">
-                                <i class="material-icons prefix">mail</i>
-                                <input id="email" type="email" class="validate">
-                                <label for="email">Email</label>
-                            </div>
-                            <div class="input-field col s12">
-                            <i class="far fa-id-badge prefix"></i>
-                                <input id="icon_telephone" type="tel" class="validate">
-                                <label for="icon_telephone">Telefono</label>
-                            </div>
+    $ciudad = strtolower($_POST['ciudad']);
+    $location = strtolower($_POST['location']);
+    $barrio = strtolower($_POST['barrio']);
 
-                            <div class="input-field col s12">
-                                <p>Selecciona tu funcion dentro del negocio</p>
-                                <div class="input-field col s12">
-                                    <select>
-                                    <option value="" disabled selected>Categoria</option>
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
-                                    </select>
-                                    <label>Selecciona la categoria</label>
-                                </div>
-                            </div>
+    $address_business = strtolower($_POST['address_business']);
 
-                            
-                            <div class="input-field col s12">
-                                <!-- <input type="submit" value="" type="submit" class="btn red accent-4">  -->
-                                <div class="col s12 m12 l12 xl12 center-align ">
-                                <a href="" type="submit" value="" type="submit" class="btn orange z-depth-2">Enviar</a>
-                                </div>
-                                <!-- <button id="input_9" type="submit" class="btn red accent-4" data-component="button">
-                                Enviar Correo
-                                </button> -->
-                            </div>
-                           
-                            
-                                                    
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-       
-    </div>
-</div>
+    $category = $_POST['category'];
+    $subcategory = $_POST['subcategory'];
+    $branch_numbers = $_POST['branch_numbers'];
 
-<?php require ('footers/footer.php'); ?>
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email = filter_var(strtolower($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $tel = strtolower($_POST['tel']);
+   
+    $business_role = $_POST['business_role'];
+
+    // echo "$name_business . $email . $category";
+
+    $errores = '';
+    $enviado = '';
+
+    if (empty($name_business) or empty($email)) {
+        $errores .= '<li>Por favor coloca todos tus datos</li>';
+    } else {
+        try {
+            $conexion = new PDO('mysql:host=localhost;dbname=vecy', 'root', '');
+            // Conexion a web host
+            // $conexion = new PDO('mysql:host=localhost;dbname=id9399363_vecy', 'id9399363_daniriveradr', 'daniel1998');
+        } catch (PDOException $e) {
+            echo "Error: " . $e->getMessage();
+        }
+
+        $statement = $conexion->prepare('SELECT * FROM negocios WHERE name_business = :name_business LIMIT 1');
+        // Conexion a web host
+        // $statement = $conexion->prepare('SELECT * FROM negocios WHERE name_business = :name_business LIMIT 1');
+        $statement->execute(array(':name_business' => $name_business));
+        $resultado = $statement->fetch();
+
+        // var_dump($resultado);
+
+        if ($resultado != false) {
+            $errores .= '<li>Este negocio ya esta registrado</li>';
+        }
+
+        // echo "$name_business . $address_business . $category . $subcategory . $branch_numbers . $first_name . $last_name . $email . $tel . $business_role";
+        // echo "<h1>$name_business, quiere pertenecer a Vecy</h1>";
+        // echo "<h4>Hola Vecy, $first_name coloco los datos de $name_business. Su negocio esta en $address_business</h4>";
+        // echo "<h4>El telefono de contacto de $first_name es <strong>$tel</strong>. Recuerda no hacerlo esperar mucho tiempo.</h4>";
+        // echo "<h4>Aquí te dejo la lista de todos sus datos</h4>";
+
+        // echo "<h4>$name_business</h4> <br/>";
+        // echo "<h4>$category</h4> <br/>";
+        // echo "<h4>$subcategory</h4> <br/>";
+        // echo "<h4>$branch_numbers</h4> <br/>";
+        // echo "<h4>$first_name</h4> <br/>";
+        // echo "<h4>$last_name</h4> <br/>";
+        // echo "<h4>$email</h4> <br/>";
+        // echo "<h4>$tel</h4> <br/>";
+        // echo "<h4>$business_role</h4> <br/>";
+        
+
+        
+    }
+
+    if ($errores == "") {
+        $statement = $conexion->prepare(
+            'INSERT INTO negocios (id, name_business, ciudad, location, barrio, address_business, category, subcategory, branch_numbers, first_name, last_name, email, tel, business_role) 
+            VALUES (null, :name_business, :ciudad, :location, :barrio, :address_business, :category, :subcategory, :branch_numbers, :first_name, :last_name, :email, :tel, :business_role)
+            ');
+        $statement->execute(array(
+            ':name_business' => $name_business,
+            ':ciudad' => $ciudad,
+            ':location' => $location,
+            ':barrio' => $barrio,
+            ':address_business' => $address_business,
+            ':category' => $category,
+            ':subcategory' => $subcategory,
+            ':branch_numbers' => $branch_numbers,
+            ':first_name' => $first_name,
+            ':last_name' => $last_name,
+            ':email' => $email,
+            ':tel' => $tel,
+            ':business_role' => $business_role
+            ));
+
+        // echo 'Hola mundo';
+        // Crear pagina de agradecimiento
+        // Hacer que los datos se envien al cliente y al admin
+
+         header('Location: negocios');
+
+        }
+
+        if (!$errores) {
+            $enviar_a = 'quieroserunvecy@gmail.com';
+            $asunto = "$name_business, quiere asociarse a Vecy";
+    
+            $mensaje_preparado = "Hola Vecy, $first_name coloco los datos de $name_business. Su negocio esta en $address_business.
+                                  El telefono de contacto de $first_name es $tel. 
+                                  Recuerda no hacerlo esperar mucho tiempo.
+                                  Aquí te dejo la lista de todos sus datos.";
+                                  
+            $mensaje_preparado .= "Nombre negocio: $name_business,
+                                   Ciudad del negocio: $ciudad,
+                                   Localidad del negocio: $location,
+                                   Barrio del negocio: $barrio,
+                                   Dirección del negocio: $address_negocio,
+                                   Categoria negocio: $category,
+                                   Subcategoria negocio: $subcategory,
+                                   Numero de locales: $branch_numbers,
+                                   Datos de contacto de la persona: $first_name $last_name,
+                                   Correo de contacto: $email,
+                                   Telefono de contacto: $tel,
+                                   Cargo de la persona: $business_role,                                           
+                                ";
+    
+            mail($enviar_a, $asunto, $mensaje_preparado);
+
+            $asunto_user = "Hola $first_name, pronto te vamos a contactar. Vecy";
+            $mensaje_user = "Hola $first_name, hemos recibido los datos de tú negocio $name_business con exito, pronto nos comunicaremos contigo. \n
+                            Atentamente, equipo de Vecy.";
+            mail($email, $asunto_user, $mensaje_user);
+            
+            $enviado = true;
+        }                   
+}
+
+
+require ('views/negocios.view.php'); 
+?>

@@ -9,8 +9,8 @@
               <div class="col s12 m3 l3 xl3">
                 <h5 class="white-text">Legal</h5>
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Terminos</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Privacidad</a></li>
+                  <li><a class="grey-text text-lighten-3" href="terminos">Terminos</a></li>
+                  <li><a class="grey-text text-lighten-3" href="privacidad">Privacidad</a></li>
                 </ul>
               </div>
 
@@ -25,9 +25,9 @@
 
               <div class="col s12 m2 l2 xl2 center-align">
                 <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-facebook fa-2x"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-instagram fa-2x"></i></a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-twitter fa-2x"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/Vecy-Oficial"><i class="fab fa-facebook fa-2x"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/vecyoficial"><i class="fab fa-instagram fa-2x"></i></a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://twitter.com/OficialVecy"><i class="fab fa-twitter fa-2x"></i></a></li>
                 </ul>               
               </div>
 
@@ -44,6 +44,7 @@
         </footer>
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>
         $(document).ready(function(){
@@ -80,6 +81,8 @@
         $(document).ready(function() {
           $('select').material_select();
         });
+
+       
               
     </script>
     </body>

@@ -14,10 +14,10 @@
     <ul id='boton-mas' class='dropdown-content'>
       <!-- Modal Trigger -->
       <li><a href="#ingresar1" class="orange-text modal-trigger"><i class="fas fa-sign-in-alt"></i> Ingresar</a></li>
-      <li><a href="#ingresar2" class="orange-text modal-trigger"><i class="fas fa-user"></i > Perfil</a></li>
-      <li><a href="panel-admin" class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li>
+      <li><a href="perfil" class="orange-text modal-trigger"><i class="fas fa-user"></i > Perfil</a></li>
+      <li><a href="login-negocios " class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li>
       <!-- <li><a href="login-admin" class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li> -->
-      <li><a href="#!" class="orange-text"><i class="fas fa-door-open"></i> Cerrar sesión</a></li>
+      <li><a href="cerrar" class="orange-text"><i class="fas fa-door-open"></i> Cerrar sesión</a></li>
     </ul> 
 
   <!-- Modal Structure -->
@@ -116,7 +116,16 @@
     
   </div>
 
-    <ul class="side-nav" id="mobile-demo">
+  <ul class="side-nav" id="mobile-demo">
+      <div class="user-view">
+        <a href="index.php"><img class="responsive-img btn black" src="img/logo.png"></a>
+      </div>
+      <li>
+        <a class="subheader">Subheader</a>
+      </li>
+      <li>
+      <a class='dropdown-button btn-large orange' href='#' data-activates='boton-mas'><i class="fas fa-angle-double-down"></i> Más</a>
+      </li>
       <li>
         <p class="center-align">Categorias</p>
       </li>
@@ -141,13 +150,19 @@
       <li>
         <div class="divider"></div>
       </li>
+      
       <li>
-        <a class="subheader">Subheader</a>
+        
+        <ul id='boton-mas' class='dropdown-content'>
+          <!-- Modal Trigger -->
+          <li><a href="#ingresar1" class="orange-text modal-trigger"><i class="fas fa-sign-in-alt"></i> Ingresar</a></li>
+          <li><a href="perfil" class="orange-text modal-trigger"><i class="fas fa-user"></i > Perfil</a></li>
+          <li><a href="login-negocios " class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li>
+          <!-- <li><a href="login-admin" class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li> -->
+          <li><a href="cerrar" class="orange-text"><i class="fas fa-door-open"></i> Cerrar sesión</a></li>
+        </ul>
       </li>
-      <li>
-        <a class="waves-effect btn orange" href="#!">Contacto</a>
-      </li>
-    </ul>  
+    </ul>
     
 
   </div>          
