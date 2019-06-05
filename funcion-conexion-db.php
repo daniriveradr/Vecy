@@ -10,4 +10,3 @@ function conexion($tabla, $usuario, $pass){
 	}
 }
 
-?

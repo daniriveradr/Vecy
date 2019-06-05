@@ -12,7 +12,7 @@
         <div class="card-panel center-align">
           <a href="#don-jacinto" class="modal-trigger">
             <img class="responsive-img "src="https://image.freepik.com/vector-gratis/carrito-supermercado-compras-pictograma-comestibles_1284-11697.jpg" alt="">
-            <p class="nombres-comercios black-text">Don jacinto</p><!-- Nombre del negocio -->
+            <p class="nombres-comercios black-text">LEEXPRESS</p><!-- Nombre del negocio -->
             <p></p><!-- Información del negocio -->
             <a class="waves-effect waves-li ght btn modal-trigger" href="#don-jacinto">Ver más</a>
           </a>                        

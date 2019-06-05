@@ -12,7 +12,9 @@
       <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>
       <link href="css/all.css" rel="stylesheet"> <!--load all styles -->
       <script defer src="js/all.js"></script> <!--load all styles -->
-      
+      <!-- Favicon -->
+      <?php require'headers/favicon.php'; ?>
+
       <title>Registro - Vecy</title>
     </head>
     <?php

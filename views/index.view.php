@@ -83,8 +83,9 @@
   </ul>
 
 
-<?php require ('abastos-pre.php');?>
-
 <?php 
-    require ('footers/footer.php');
+  require ('abastos-pre.php');
+  require ('restaurantes.php');
+  
+  require ('footers/footer.php');
 ?>

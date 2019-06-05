@@ -18,6 +18,15 @@ require ('headers/header-negocio.php');
                     <video class="responsive-video" controls>
                         <source src="vid/video_vecy.mp4" type="video/mp4" controls="false" autoplay="true" autoplay>
                     </video>
+
+                    <div class="center-align">
+                    <p>“Deja que se sepa en todo el barrio, para que nadie se quede sin conocer tu negocio o probar tus
+                        productos y disfrutar de tus servicios, ha llegado un nuevo aliado a tu barrio llamado Vecy, más que esto
+                        se convertirá en tu benefactor digital y quien te apoyará en fortalecer tu actividad, formación,
+                        tecnificación y modernización comercial. Ahora todos te amaran por tus servicios y más amigos te van a
+                        recomendar. “prepárate porque vas a crecer demasiado rápido”
+                    </p>
+                    </div>
                 </div>
             </div>
             
@@ -25,7 +34,7 @@ require ('headers/header-negocio.php');
         <div class="col s12 m6 l5 xl5">
             <div class="card-panel center-align">
                 <div class="row">
-                <h4>Unete tu negocio en Vecy</h4>
+                <h4>¡Unete tu negocio a Vecy!</h4>
                     <form class="col s12" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post" name="login_negocios">
                         <div class="row">
                             <h5>Información de tu negocio</h5>
@@ -73,10 +82,11 @@ require ('headers/header-negocio.php');
                                     <label>Selecciona la categoria</label>
                                 </div>
                                 <p>Por favor selecciona la Subcategoria de tu negocio</p>
+                                <p>Por ejemplo: Si tú negocio corresponde a Abastos, la subcategoria podría ser Supermercado</p>
                                 <div class="input-field col s12">
                                     <i class="fas fa-map-marker-alt prefix"></i>
-                                    <input id="subcategory" type="text" name="subcategory" class="validate">
-                                    <label for="subcategory">Por ejemplo: Si tú negocio corresponde a Abastos, la subcategoria podría ser Supermercado</label>
+                                    <input id="subcategory" type="text" name="subcategory" class="validate" placeholder="Ejemplo: Categoria Abastos, subcategoria Supermercado">
+                                    <label for="subcategory">Subcategoria</label>
                                 </div>
                             </div>
 
@@ -194,7 +204,7 @@ require ('headers/header-negocio.php');
                 </div>
             </div>
             <div class="col s12 m6 l6 xl6 card-panel z-depth-0">
-                <h4>Vamos a generar innovación para el grupo de comerciantes más importante de la comunidad</h4>
+                <h4>¡Vamos a generar innovación para el grupo de comerciantes más importante de la comunidad!</h4>
                 <h5>Facilitaremos la presencia digital para cada negocio. Así ninguno se quedara opacado por grandes industrias</h5>
             </div>
         </div>
@@ -202,21 +212,21 @@ require ('headers/header-negocio.php');
         <div class="row">
             <div class="col s12 m4 l4 xl4">
                 <div class="card-panel">
-                    <h5 class="center-align">No más olvido a las tiendas de barrio</h5>
+                    <h5 class="center-align">¡No más olvido a las tiendas de barrio!</h5>
                     <p>Con el uso masivo de internet los comercios se estan quedando fuera de las opciones de los clientes</p>
                 </div>
                 
             </div>
             <div class="col s12 m4 l4 xl4">
                 <div class="card-panel">
-                    <h5 class="center-align">Además tener presencia digital es costoso</h5>
+                    <h5 class="center-align">¡Además tener presencia digital es costoso!</h5>
                     <p>Pocos son los negocios pequeños que hoy en día pueden costearse esta inversión sin saber los resultados de está</p>
                 </div>
                 
             </div>
             <div class="col s12 m4 l4 xl4">
                 <div class="card-panel">
-                    <h5 class="center-align">Con Vecy no vas a estar solo</h5>
+                    <h5 class="center-align">¡Con Vecy no vas a estar solo!</h5>
                     <p>Juntos ofreceremos lo que cada persona necesita de verdad sin tener que recurrir a los grandes comercios y elevados precios</p>
                 </div>
                 

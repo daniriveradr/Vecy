@@ -93,23 +93,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errores .= '<li>Por favor coloca todos tus datos</li>';
     } else {
         try {
-            $conexion = new PDO('mysql:host=localhost;dbname=vecy', 'root', '');
+            // $conexion = new PDO('mysql:host=localhost;dbname=vecy', 'root', '');
             // Conexion a web host
-            // $conexion = new PDO('mysql:host=localhost;dbname=id9399363_vecy', 'id9399363_daniriveradr', 'daniel1998');
+            $conexion = new PDO('mysql:host=localhost;dbname=id9399363_vecy', 'id9399363_daniriveradr', 'daniel1998');
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
 
-        $statement = $conexion->prepare('SELECT * FROM negocios WHERE name_business = :name_business LIMIT 1');
+        $statement = $conexion->prepare('SELECT * FROM negocios WHERE tel = :tel LIMIT 1');
         // Conexion a web host
         // $statement = $conexion->prepare('SELECT * FROM negocios WHERE name_business = :name_business LIMIT 1');
-        $statement->execute(array(':name_business' => $name_business));
+        $statement->execute(array(':tel' => $tel));
         $resultado = $statement->fetch();
 
         // var_dump($resultado);
 
         if ($resultado != false) {
-            $errores .= '<li>Este negocio ya esta registrado</li>';
+            $errores .= '<li>Este numero de telogfono ya esta registrado</li>';
         }
 
         // echo "$name_business . $address_business . $category . $subcategory . $branch_numbers . $first_name . $last_name . $email . $tel . $business_role";

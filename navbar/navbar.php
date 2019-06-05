@@ -19,8 +19,8 @@
     <!-- Dropdown Structure -->
     <ul id='boton-mas1' class='dropdown-content'>
       <!-- Modal Trigger -->
-      <li><a href="#ingresar1" class="orange-text modal-trigger"><i class="fas fa-sign-in-alt"></i> Ingresar</a></li>
-      <li><a href="perfil" class="orange-text modal-trigger"><i class="fas fa-user"></i > Perfil</a></li>
+      <li><a href="#ingresar1" class="orange-text modal-trigger disabled"><i class="fas fa-sign-in-alt"></i> Ingresar</a></li>
+      <li><a href="perfil" class="orange-text modal-trigger disabled"><i class="fas fa-user"></i > Perfil</a></li>
       <li><a href="login-negocios " class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li>
       <!-- <li><a href="login-admin" class="orange-text"><i class="fas fa-user-lock"></i> Admin</a></li> -->
       <li><a href="cerrar" class="orange-text"><i class="fas fa-door-open"></i> Cerrar sesión</a></li>

@@ -33,7 +33,9 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $errores .= '<li>Por favor coloca tus datos correctamente</li>';
     } else {
         try {
-            $conexion = new PDO('mysql:host=localhost;dbname=vecy', 'root', '');
+            // $conexion = new PDO('mysql:host=localhost;dbname=vecy', 'root', '');
+            // Conexion a web host
+            $conexion = new PDO('mysql:host=localhost;dbname=id9399363_vecy', 'id9399363_daniriveradr', 'daniel1998');
         } catch (PDOException $e) {
             echo "Error: " . $e->getMessage();
         }
@@ -100,15 +102,15 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $enviar_a = 'vecycolombia@gmail.com';
         $asunto = "$first_name, acaba de registrarse Vecy";
 
-        $mensaje_preparado = "Hola Vecy, $first_name coloco sus datos personales en el formulario de registros para personas";
+        $mensaje_preparado = "Hola Vecy, $first_name coloco sus datos personales en el formulario de registros para personas.";
                               
         $mensaje_preparado .= "Nombre completo: $first_name $last_name,
                                Ciudad de residencia: $ciudad,
                                Localidad: $location,
                                Barrio: $barrio,
-                               Dirección: $address_personal,
+                               Dirección: $address,
                                Correo de contacto: $email,
-                               Telefono de contacto: $tel
+                               Telefono de contacto: $telephone
                             ";
 
         mail($enviar_a, $asunto, $mensaje_preparado);
@@ -226,7 +228,7 @@ require ('headers/header-registro.php');
                             <div class="input-field col s12 m12 l12 xl12">
                                 <div class="col s12 m12 l12 xl12 center-align ">
                                     <!-- <a type="input" value="" type="submit" class="btn orange z-depth-2">registrarse</a> -->
-                                    <input type="submit" value="Resgistrarse" type="submit" class="btn orange whot-text"> 
+                                    <input type="submit" value="Registrarse" type="submit" class="btn orange whot-text"> 
                                     <!-- <input type="submit" value="subir foto" class="btn deep-purple">  -->
                                     <!-- <a class="btn" onclick="login.submit()">Registrate!</a> -->
                                 </div>
